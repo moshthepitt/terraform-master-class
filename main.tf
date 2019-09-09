@@ -9,5 +9,6 @@ resource "aws_instance" "example-MOSH" {
   tags = {
       Name = "moshthepitt"
       Purpose = "Dickson's master class example"
+      App = "master-class"
   }
 }
